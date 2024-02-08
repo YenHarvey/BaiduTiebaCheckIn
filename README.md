@@ -3,7 +3,7 @@
 ## 项目介绍
 
 - 百度贴吧自动签到；
-- Rust新手，练手项目，仅保证功能跑。 
+- Rust新手，练手项目，仅保证功能跑。
 
 ## 使用说明
 
@@ -13,9 +13,9 @@
 2. 克隆本项目，进入项目目录,执行`cargo build --release`。
 
     ```shell
-        git clone https://github.com/YenHarvey/BaiduTiebaCheckIn.git
-        cd baidu-tieba-auto-sign
-        cargo build --release
+    git clone https://github.com/YenHarvey/BaiduTiebaCheckIn.git
+    cd baidu-tieba-auto-sign
+    cargo build --release
     ```
 3. 编译完成后，`target/release`目录下会生成可执行文件`baidu-tieba-auto-sign`。
 4. 在同级目录创建一个cookie.txt文件，内容为百度贴吧的cookie。
@@ -23,7 +23,7 @@
 
 ### 直接下载
 
-1. 在`release`下载平台的可执行文件。
+1. 在[release](https://github.com/YenHarvey/BaiduTiebaCheckIn/releases/tag/v1.0.0)下载可执行文件。
 2. 在同级目录创建一个cookie.txt文件，内容为百度贴吧的cookie。
 3. 运行可执行文件。
 
